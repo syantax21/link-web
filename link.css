@@ -1,0 +1,118 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url('mantap.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.container{
+    background-color: salmon; 
+    width: 330px;
+    color: #ffffff;
+    box-shadow: 1px -2px 11px rgb(0,206,209);
+    border: none;
+    border: 2px solid rgba(90, 102, 100, 0.437);
+    background: transparent;
+    border-radius: 20px;
+    padding: 30px 40px;
+    backdrop-filter: blur(20px);
+    text-align: center;
+    transition: .4s;
+}
+
+.container:hover{
+    box-shadow: 1px -2px 20px rgb(255, 136, 0);
+    transition: .4s;
+}
+
+.container h1{
+    margin: 9px 2px;
+ font-size: 170%;
+ color: #18dba1;
+ text-shadow: 2px 2px 25px #ffffff75;
+}
+
+.text-biru{
+    color: hsl(189, 100%, 50%);
+    text-shadow: 1px 1px 15px #fff9fc3f ;
+    
+}
+
+.text{
+    color: rgb(65, 233, 32);
+    text-shadow: 1px 1px 12px #fff9fc65;
+}
+
+.container img{
+    box-shadow: 0 0 30px rgba(231, 229, 225, 0.76);
+    width: 40%;
+    border-radius: 100%;
+    transition: .5s;
+}
+
+.container img:hover{
+    box-shadow: 0 0 30px orange;
+    transition: .5s;
+}
+
+p{
+    font-size: 1em;
+    margin-bottom: 32.5px;
+    margin-top: 20.5px;
+}
+
+.home-sci i{
+    margin: -1px;
+}
+
+.home-sci{
+    font-size: 30px;
+    padding-top: 4px;
+}
+.home-sci a{
+    color: rgb(0, 255, 255);
+    margin: 0 20px;
+    transition: .2s;
+}
+
+.home-sci a:hover {
+    color: rgb(255, 136, 0);
+    transition: .2s;
+}
+
+.home-sci a::before{
+content: '';
+position: absolute;
+width: 40px;
+height: 40px;
+box-shadow: 1px 1px 15px;
+border: 3.35px solid transparent;
+border-radius: 50%;
+transform: translate(-20%, -20%);
+z-index: -1;
+transition: .5s;
+background-color: rgba(9, 31, 29, 0.705);
+}
+
+.home-sci a:hover::before{
+    background-color: rgb(255, 255, 255);
+    border: 3.35px solid transparent;
+    z-index: -1;
+
+}
+
+
+    
